@@ -1,0 +1,12 @@
+MAX_THEMES = 5
+MAX_INFERRED_NEEDS = 5
+
+RETRIEVAL = {
+    "TOP_K": 3,
+    "MIN_RELEVANCE": 0.35,
+}
+
+DECAY = {
+    "DAYS_UNTIL_DECAY": 30,
+    "DECAY_FACTOR": 0.85,
+}
